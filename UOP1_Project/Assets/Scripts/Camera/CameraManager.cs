@@ -10,7 +10,7 @@ public class CameraManager : MonoBehaviour
 	public CinemachineFreeLook freeLookVCam;
 	private bool _isRMBPressed;
 
-	[SerializeField, Range(.5f, 3f)]
+	[SerializeField, Range(.01f, 3f)]
 	private float _speedMultiplier = 1f; //TODO: make this modifiable in the game settings											
 	[SerializeField] private TransformAnchor _cameraTransformAnchor = default;
 
